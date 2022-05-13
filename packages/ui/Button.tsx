@@ -1,4 +1,9 @@
 import * as React from "react";
 export const Button = () => {
-  return <button>Boop</button>;
+
+  function onClick(){
+    alert("I lied 🌚")
+  }
+
+  return <button onClick={onClick}>Press me and nothing will happen</button>;
 };
