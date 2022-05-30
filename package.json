@@ -1,6 +1,6 @@
 {
-  "name": "multiplyawr-game-client",
-  "author":"Oslav Tichie",
+  "name": "multiplayer-game-client",
+  "author": "Oslav Tichie",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -11,10 +11,25 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "turbo run test"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/changelog",
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/git"
+    ]
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "danger": "^11.0.7",
     "prettier": "latest",
+    "semantic-release": "^19.0.2",
     "turbo": "latest"
   },
   "engines": {
