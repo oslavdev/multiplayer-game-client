@@ -23,3 +23,17 @@ WebGL sci-fi multiplayer shooter game.
 - Ably (realtime communication)
 - Prisma
 
+## Deploy
+
+### Build command
+
+#### Docs
+
+```bash
+cd ../.. && npx turbo run build --scope=docs --include-dependencies  --no-deps
+```
+
+### Web
+```bash
+cd ../.. && npx turbo run build --scope=web --include-dependencies  --no-deps
+```
