@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/oslavdev/multiplayer-shooter-client/compare/v1.0.0...v1.0.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* change release version ([0d53b52](https://github.com/oslavdev/multiplayer-shooter-client/commit/0d53b525b59ba1d96df0eccd0236ea2ecde70e59))
+
 # 1.0.0 (2022-05-30)
 
 
