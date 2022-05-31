@@ -48,12 +48,6 @@ if (packageChanged && !lockfileChanged) {
   )
 }
 
-/** Doesnt match format */
-danger.git.commits.forEach((commit) => {
-  if (!commit.message.match(/^(feat:)|(fix:)|(major:)|(chore:)/g)) {
-    fail(`Commit message '${commit.message}' does match the correct format`)
-  }
-})
 
 const hasReleaseTriggers = danger.git.commits.reduce(
   (hasReleaseTriggers, commit) =>

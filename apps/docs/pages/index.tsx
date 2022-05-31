@@ -1,10 +1,9 @@
-import { Button } from "ui";
+import * as React from 'react'
 
 export default function Docs() {
   return (
     <div>
-      <h1>Docs</h1>
-      <Button />
+      <h1>Documentation</h1>
     </div>
   );
 }

@@ -25,9 +25,9 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@semantic-release/git": "^10.0.1",
     "danger": "^11.0.7",
     "prettier": "latest",
     "semantic-release": "^18.0.1",
@@ -37,5 +37,13 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@1.22.11"
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "packageManager": "yarn@1.22.11",
+  "dependencies": {
+    "three": "^0.141.0"
+  }
 }
