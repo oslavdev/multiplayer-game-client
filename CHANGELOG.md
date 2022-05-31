@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/oslavdev/multiplayer-shooter-client/compare/v1.0.2...v1.1.0) (2022-05-31)
+
+
+### Features
+
+* add react three fiber package ([22bfbfc](https://github.com/oslavdev/multiplayer-shooter-client/commit/22bfbfc8033a1aed2479c0b16753e389d4615159))
+
 ## [1.0.2](https://github.com/oslavdev/multiplayer-shooter-client/compare/v1.0.1...v1.0.2) (2022-05-31)
 
 
