@@ -2,6 +2,8 @@
 
 WebGL sci-fi multiplayer shooter game.
 
+Client: https://github.com/oslavdev/multiplayer-shooter-server
+
 ## Features
 
 - Select and customize character
