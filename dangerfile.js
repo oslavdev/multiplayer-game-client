@@ -27,10 +27,6 @@ if (are_fixups) {
   fail('This PR contains unsquashed commits. Please use `--autosquash`.')
 }
 
-/** Added and removed lines */
-const { additions = 0, deletions = 0 } = pr
-message(`:tada: The PR added ${additions} and removed ${deletions} lines.`)
-
 /* If it's not a branch PR */
 if (pr.base.repo.full_name !== pr.head.repo.full_name) {
   warn(
