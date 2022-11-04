@@ -1,8 +1,8 @@
-# Multiplayer shooter game
+# Multiplayer WEbGL game
 
-WebGL sci-fi multiplayer shooter game.
+WebGL sci-fi multiplayer game.
 
-Client: https://github.com/oslavdev/multiplayer-shooter-server
+Server: https://github.com/oslavdev/multiplayer-shooter-server
 
 ## Features
 
@@ -14,7 +14,6 @@ Client: https://github.com/oslavdev/multiplayer-shooter-server
 
 ## Tech
 
-- Turborepo
 - Next.js
 - Node.js 
 - Three.js / React-three-fiber
@@ -30,12 +29,3 @@ Client: https://github.com/oslavdev/multiplayer-shooter-server
 ### Build command
 
 #### Docs
-
-```bash
-cd ../.. && npx turbo run build --scope=docs --include-dependencies  --no-deps
-```
-
-### Web
-```bash
-cd ../.. && npx turbo run build --scope=web --include-dependencies  --no-deps
-```
