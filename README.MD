@@ -1,5 +1,7 @@
 # Multiplayer WEbGL game
 
+This is a work in progress!
+
 WebGL sci-fi multiplayer game.
 
 Server: https://github.com/oslavdev/multiplayer-shooter-server
